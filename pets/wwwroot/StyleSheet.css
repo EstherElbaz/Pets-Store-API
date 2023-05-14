@@ -1,0 +1,49 @@
+﻿.login{
+    margin-right:46%;
+    color: darksalmon;
+   
+    width: 200px;
+    height:300px;
+}
+userNameHome {
+    border-radius: 35%;
+}
+button {
+    font-weight: bold;
+    border-radius: 18px;
+    border-style: solid;
+    background-color: pink;
+    border-color:pink;
+    height: 50px;
+    font-size:medium;
+}
+input{
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(230 230 235);
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    outline: none;
+    border-radius: 18px;
+    border-color: rgb(230 230 235);
+}
+span {
+    margin-right: 45%;
+}
+
+footer {
+    
+    height:70px;
+    margin-top:540px;
+    background-color: pink;
+    text-align: center;
+    font-size:30px;
+ 
+}
+
+body {
+    background-color: #d4dbdf;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
