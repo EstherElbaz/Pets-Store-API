@@ -1,19 +1,37 @@
-# pets
-website store
-Sweet site for selling pets, but not only.
+# 🐾 Pets Store API
 
-This code is suitable for anyone who wants to operate an online store on the Internet.
-The emphasis in this project is the server side.
-The project was written in the .net core framework, in c# and web-api.
-The project presents work with the layer model and microservices.
+A clean and well-structured Web API for a pet store, built with **ASP.NET Core** using layered architecture, **Entity Framework Core**, and full error logging with middleware.
 
-Things unique to this project:
-Using the entity framework.
-Special attention to clean code.
-Using a logger to monitor the program's performance.
-Using DTO objects.
-And many other good things.
-The client side is developed in Java Script.
+---
 
-We will continue to write to you, good world.
-Esther Elbaz.
+## ✨ Main Features
+
+- ✅ User registration and login
+- 🛒 Shopping cart and purchase flow
+- 🐶 Product listing with **search and filtering** by name and category
+- ⚡ **Lazy loading** for performance and load reduction
+- 🧱 Clear **layered architecture**:
+  - Controllers
+  - Services
+  - Repositories
+- 🧳 **DTOs** and **AutoMapper** for separation of concerns
+- 🛠 Database access via **Entity Framework Core**
+- 🧾 **Custom error-handling middleware** with full logging using **NLog**
+- 🎨 Clean minimal front-end (inspired by Next.js, but not the focus)
+
+---
+## 🧰 Technologies Used
+
+- `ASP.NET Core Web API`
+- `Entity Framework Core`
+- `AutoMapper`
+- `DTO pattern`
+- `NLog` for logging
+- Custom `Middleware` for exception handling
+- `LINQ` with dynamic filters
+- Pagination and lazy loading via `Skip` and `Take`
+
+---
+
+✅ Summary
+This project demonstrates a well-crafted, robust, and modular API for an online pet store – focusing on clean backend architecture, separation of concerns, and solid error handling with logging.
